@@ -33,7 +33,7 @@
             <Font name="System Bold Italic" size="12.0" />
          </font>
       </Label>
-      <ComboBox layoutX="305.0" layoutY="96.0" opacity="0.53" prefWidth="150.0">
+      <ComboBox layoutX="305.0" layoutY="96.0" opacity="0.84" prefWidth="150.0">
          <effect>
             <Lighting>
                <bumpInput>
