@@ -4,7 +4,6 @@
 <?import javafx.scene.control.ComboBox?>
 <?import javafx.scene.control.Label?>
 <?import javafx.scene.control.TextField?>
-<?import javafx.scene.effect.Light.Distant?>
 <?import javafx.scene.effect.Lighting?>
 <?import javafx.scene.effect.Shadow?>
 <?import javafx.scene.layout.AnchorPane?>
@@ -35,7 +34,7 @@
       </Label>
       <ComboBox layoutX="305.0" layoutY="96.0" opacity="0.84" prefWidth="150.0">
          <effect>
-            <Lighting>
+            <Lighting light="$null">
                <bumpInput>
                   <Shadow>
                      <color>
@@ -43,9 +42,6 @@
                      </color>
                   </Shadow>
                </bumpInput>
-               <light>
-                  <Light.Distant />
-               </light>
             </Lighting>
          </effect>
       </ComboBox>
