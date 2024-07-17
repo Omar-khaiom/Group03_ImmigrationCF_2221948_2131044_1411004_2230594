@@ -11,6 +11,6 @@ module com.oop.finall_project1 {
     requires eu.hansolo.tilesfx;
     requires com.almasb.fxgl.all;
 
-    opens com.oop.finall_project1 to javafx.fxml;
-    exports com.oop.finall_project1;
+    opens com.oop.final_project1 to javafx.fxml;
+    exports com.oop.final_project1;
 }
