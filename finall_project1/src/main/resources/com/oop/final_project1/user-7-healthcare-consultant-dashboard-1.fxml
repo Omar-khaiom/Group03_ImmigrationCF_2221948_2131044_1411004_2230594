@@ -9,7 +9,7 @@
 <?import javafx.scene.shape.Line?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane prefHeight="488.0" prefWidth="659.0" style="-fx-background-color: #f8f8ff;" xmlns="http://javafx.com/javafx/22" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.oop.finall_project1.HelloController">
+<AnchorPane prefHeight="488.0" prefWidth="659.0" style="-fx-background-color: #f8f8ff;" xmlns="http://javafx.com/javafx/22" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.oop.final_project1.HelloController">
    <children>
       <Label layoutX="225.0" layoutY="14.0" prefHeight="22.0" prefWidth="239.0" text="healthcare consultant  " textFill="#382b2b">
          <font>
